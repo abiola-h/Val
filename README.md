@@ -1,6 +1,11 @@
+
+https://github.com/user-attachments/assets/b63f1cd4-13e3-44b3-bcbb-c35a111c4d6e
 ## What is this?
 This is a cli application I built to ask my girlfriend to be my valentine. 
 It shows a note with a yes or no prompt beneath. When you click on a yes, it plays the [Cupcake song](https://youtu.be/wAgZVLk6J4M?si=L_ey_0tOIImyKVoS) while showing the lyrics of the song on the screen.
+
+## Demo?
+https://github.com/user-attachments/assets/c56a1166-c3dc-409b-a7c8-34f77c5c9853
 
 ## How can I run this?
 1. Clone this repo by running `git clone https://github.com/quamejnr/Val.git` on your terminal
