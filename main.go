@@ -27,17 +27,14 @@ var (
   `
 
 	lyrics string = `
-  You're my hunny bunch Sugar plum,
-  Pumpy-umpy-umpkin
-  You're my sweetie pie
-  You're my cuppy cake
-  Gum drops
-  Snoogums boogums, you are...
-  The apple of my eye
-  And I love you so and I want you to know
-  That I'll always be right here
-  And I love to sing, sweet songs to you
-  Because you are so dear
+  You are my sunshine, my only sunshine
+You make me happy when skies are gray
+You'll never know dear, how much I love you
+Please don't take my sunshine away
+ You are my sunshine, my only sunshine
+You make me happy when skies are gray
+You'll never know dear, how much I love you
+Please don't take my sunshine away
 	`
 )
 
@@ -53,8 +50,8 @@ func main() {
 	).Run()
 
 	if ans == true {
-		go playSong("assets/cupcake.mp3")
-		huh.NewNote().Title("The Cuppycake Song").Description(lyrics).Run()
+		go playSong("assets/sunshine.mp3")
+		huh.NewNote().Title("The Sunshine Song").Description(lyrics).Run()
 	}
 }
 
